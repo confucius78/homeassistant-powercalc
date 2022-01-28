@@ -30,8 +30,6 @@ CONF_MANUFACTURER = "manufacturer"
 CONF_MODE = "mode"
 CONF_MULTIPLY_FACTOR = "multiply_factor"
 CONF_MULTIPLY_FACTOR_STANDBY = "multiply_factor_standby"
-CONF_MIN_WATT = "min_watt"
-CONF_MAX_WATT = "max_watt"
 CONF_POWER_FACTOR = "power_factor"
 CONF_POWER_SENSOR_NAMING = "power_sensor_naming"
 CONF_POWER = "power"
@@ -43,7 +41,6 @@ CONF_TEMPLATE = "template"
 CONF_UPDATE_FREQUENCY = "update_frequency"
 CONF_VALUE = "value"
 CONF_VOLTAGE = "voltage"
-CONF_WATT = "watt"
 CONF_WLED = "wled"
 CONF_STATES_POWER = "states_power"
 CONF_STANDBY_POWER = "standby_power"
@@ -114,6 +111,9 @@ MODEL_DIRECTORY_MAPPING = {
         "TRADFRI bulb E27 WW clear 250lm": "LED1842G3",
         "TRADFRI bulb GU10 WW 400lm": "LED1837R5",
         "TRADFRIbulbE14WSglobeopal470lm": "LED2002G5",
+        "TRADFRIbulbE27WSglobeopal1055lm": "LED2003G10",
+        "TTRADFRIbulbGU10WS345lm": "LED2005R5",
+        "TRADFRI bulb GU10 WW 345lm": "LED2005R5",
         "LEPTITER Recessed spot light": "T1820",
     },
     "Signify Netherlands B.V.": {
@@ -124,5 +124,6 @@ MODEL_DIRECTORY_MAPPING = {
         "3261030P6": "LTC001",
         "3261031P6": "LTC001",
         "3261048P6": "LTC001",
+        "9290012573A": "LCT015",
     },
 }
